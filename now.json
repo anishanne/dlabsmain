@@ -1,0 +1,11 @@
+{
+  "name": "DiscordLabs",
+  "alias": [
+    "dlabs"
+  ],
+  "version": 2,
+  "routes": [{ "src": "/(.*)", "dest": "/server.js" }],
+  "builds": [
+    { "src": "/server.js", "use": "@now/node" }
+  ]
+}
